@@ -1,0 +1,16 @@
+[user]
+	name = Takuya Kikuchi
+	email = takuyakikuch@gmail.com
+[core]
+  # Prevent garbled Japanese file names.
+  quotepath  = false
+[fetch]
+  # Reflect a branch deleted in a remote repository in the local repository.
+  prune = true
+[pull]
+  # Merge only if fast-forward, otherwise merge is not performed and an error occurs.
+  ff = only
+[push]
+  # Push the current branch to the remote with the same name. Even if upstream is not set, it will be pushed.
+	default = current
+  
